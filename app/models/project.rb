@@ -4,10 +4,4 @@ class Project < ApplicationRecord
   validates :title, presence: true
   validates :description, presence: true
   validates :source_code, presence: true
-  validates_associated :technologies, presence: true
-  validates_associated :technologies, presence: true
-  validates :technologies, length: { minimum: 1 }
-  def technologies
-    return super().length
-  end
 end
