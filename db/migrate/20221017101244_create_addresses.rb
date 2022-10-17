@@ -4,7 +4,7 @@ class CreateAddresses < ActiveRecord::Migration[7.0]
       t.belongs_to :user, null: false, foreign_key: true
       t.string :email
       t.string :phone_no
-      t.integer :pob_box
+      t.integer :po_box
 
       t.timestamps
     end
