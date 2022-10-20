@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_10_17_110245) do
+ActiveRecord::Schema[7.0].define(version: 2022_10_20_172555) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -18,7 +18,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_17_110245) do
     t.bigint "user_id", null: false
     t.string "email"
     t.string "phone_no"
-    t.integer "pob_box"
+    t.integer "po_box"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_addresses_on_user_id"
@@ -34,6 +34,15 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_17_110245) do
     t.string "live_link"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "projects_technologies", force: :cascade do |t|
+    t.bigint "project_id", null: false
+    t.bigint "technology_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["project_id"], name: "index_projects_technologies_on_project_id"
+    t.index ["technology_id"], name: "index_projects_technologies_on_technology_id"
   end
 
   create_table "technologies", force: :cascade do |t|
@@ -52,4 +61,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_17_110245) do
   end
 
   add_foreign_key "addresses", "users"
+  add_foreign_key "projects_technologies", "projects"
+  add_foreign_key "projects_technologies", "technologies"
 end
