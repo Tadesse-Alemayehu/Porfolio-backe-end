@@ -5,4 +5,7 @@ class Project < ApplicationRecord
   validates :title, presence: true
   validates :description, presence: true
   validates :source_code, presence: true
+  def technology_names
+    technologies.map{|tech| tech.name}
+  end
 end

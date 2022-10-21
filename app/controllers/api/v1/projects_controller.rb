@@ -14,7 +14,7 @@ class Api::V1::ProjectsController < ApplicationController
   end
 
   def technologies
-     technologies=Project.find_by_id(params[:project_id])&.technologies&.map{|tech| tech.name}
+     technologies=Project.find_by_id(params[:project_id])&.technology_names
     if technologies
       render json: technologies
     else
