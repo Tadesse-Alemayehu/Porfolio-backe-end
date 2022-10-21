@@ -58,7 +58,7 @@ Project.create([  {
     live_link: "https://tadesse-jorge-space-travelers.netlify.app/",
     source_code: "https://github.com/Tadesse-Alemayehu/Space-Travelers",
   },{
-    name: "Space Travelers’ Hub",
+    name: "Space Travelers' Hub",
     title: "work with the real live data from the SpaceX API.",
     description:
       "In this task, we will be working with the real live data from the SpaceX API.
@@ -71,9 +71,7 @@ Project.create([  {
   },{
     name: "To do lists",
     title: "To do list organizer",
-    description: "This is a single-page application (SPA) that you can use to organize your daily schedule.
-      You can create a task ✍🏼, mark a task as completed ✔, update its details ⚒, or delete it 🚩.
-      All this without needing to reload a page. ✔",
+    description: "This is a single-page application (SPA) that you can use to organize your daily schedule. You can create a task ✍🏼, mark a task as completed ✔, update its details ⚒, or delete it 🚩.All this without needing to reload a page. ✔",
     desktop_pic: "./images/pictures/project-snapshots/PNG/To-Do-list.png",
     mobile_pic:  "./images/pictures/project-snapshots/PNG/card/To-Do-list.png",
     live_link: "https://tadesse-alemayehu.github.io/To-Do-list/",
@@ -81,7 +79,7 @@ Project.create([  {
   },{
     name: "Learn to code",
     title: "Learn to code",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius",
+    description: "Learn to code is a website I plan to use for my coding class (website) ✍🏼 where I'll be teaching students all about programming and coding in general and web development in particular. 😎 This project is totally made with JavaScript, CSS3 and HTML only.",
     desktop_pic: "./images/pictures/project-snapshots/PNG/LEARN-TO-CODE.png",
     mobile_pic:  "./images/pictures/project-snapshots/PNG/card/LEARN-TO-CODE.png",
     live_link: "https://tadesse-alemayehu.github.io/LEARN-TO-CODE/",
@@ -89,7 +87,7 @@ Project.create([  {
   },{
     name: "Rock-Paper-Scissors",
     title: "Learn to code",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Play this with a computer see if you can beat it 😎",
     desktop_pic: "./images/pictures/project-snapshots/PNG/Rock-Paper-Scissors-Advance.png",
     mobile_pic:   "./images/pictures/project-snapshots/PNG/card/Rock-Paper-Scissors-Advance.png",
     live_link:  "https://tadesse-alemayehu.github.io/Rock-Paper-Scissors-Advance/",
@@ -105,7 +103,7 @@ Project.create([  {
   },{
     name: "YouTube-Clone",
     title: "Project five. Microverse Bootcamp",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Cloning a simple YouTube page with just HTML and CSS.",
     desktop_pic: "./images/pictures/project-snapshots/PNG/YouTube-Clone.png",
     mobile_pic: "./images/pictures/project-snapshots/PNG/card/YouTube-Clone.png",
     live_link: "https://tadesse-alemayehu.github.io/YouTube-Clone/",
