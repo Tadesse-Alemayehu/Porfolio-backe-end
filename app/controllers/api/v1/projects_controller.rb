@@ -13,6 +13,15 @@ class Api::V1::ProjectsController < ApplicationController
     end
   end
 
+  def technologies
+     technologies=Project.find_by_id(params[:project_id])&.technologies&.map{|tech| tech.name}
+    if technologies
+      render json: technologies
+    else
+      render json: {"message": "No project is found with #{params[:project_id]} id", status: 404},
+      :status => :bad_request
+    end
+  end
   private
   # def project_param
   #   params.require(:project).permit(:id)
