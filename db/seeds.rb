@@ -118,7 +118,7 @@ Project.create([  {
       name: "CSS",
       icon: "",
       skill_level: 9},{
-      name: "JavaSCript",
+      name: "JavaScript",
       icon: "",
       skill_level: 9},{
       name: "Ruby",
