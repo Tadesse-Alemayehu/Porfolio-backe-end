@@ -1,6 +1,6 @@
 class Api::V1::MessagesController < ApplicationController
-  # skip_before_action :verify_authenticity_token
   def index
+    p "request format is"+request.content_type
     render json: Message.all
   end
   def show
@@ -14,7 +14,7 @@ class Api::V1::MessagesController < ApplicationController
     end
   end
   def create
-    message=Message.new(message_create)
+    message=Message.new(full_name: params[:full_name],email: params[:email],message: params[:message])
     if message.save
       render json: {"message": "success in submitting your message", status: 200}, status: :ok
     else
@@ -24,8 +24,5 @@ class Api::V1::MessagesController < ApplicationController
     # p "Auth token is"+form_authenticity_token
   end
   private
-  def message_create
-    params.require(:message).permit(:full_name, :email, :message)
-  end
-  # sanitize rails param with other views
+    # sanitize rails param with other views
 end
