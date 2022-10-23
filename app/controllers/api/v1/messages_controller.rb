@@ -13,7 +13,7 @@ class Api::V1::MessagesController < ApplicationController
     end
   end
   def create
-    message=Message.new(full_name: params[:full_name],email: params[:email],message: params[:message])
+    message=Message.new(message_create)
     if message.save
       render json: {"message": "success in submitting your message", status: 200}, status: :ok
     else
@@ -21,6 +21,10 @@ class Api::V1::MessagesController < ApplicationController
       :status => :bad_request
     end
     # p "Auth token is"+form_authenticity_token
+  end
+  private
+  def message_create
+    params.require(:message).permit(:full_name, :email, :message)
   end
   # sanitize rails param with other views
 end
