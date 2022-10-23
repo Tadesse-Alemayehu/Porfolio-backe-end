@@ -22,6 +22,5 @@ class Api::V1::MessagesController < ApplicationController
     end
     # p "Auth token is"+form_authenticity_token
   end
-
   # sanitize rails param with other views
 end
