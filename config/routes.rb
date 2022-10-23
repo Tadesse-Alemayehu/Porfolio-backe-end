@@ -8,6 +8,7 @@ Rails.application.routes.draw do
      end
      resources :technologies, only: %i[index]
      resources :messages, only: %i[index show create]
+     get "get_authentication_token", to: "authentications#form_token"
     end
    end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
