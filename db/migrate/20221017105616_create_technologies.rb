@@ -4,7 +4,7 @@ class CreateTechnologies < ActiveRecord::Migration[7.0]
       t.string :name, :unique =>  true
       t.text :icon
       t.integer :skill_level
-      t.string :type
+      t.string :tech_type
       t.text :description
       t.timestamps
     end
