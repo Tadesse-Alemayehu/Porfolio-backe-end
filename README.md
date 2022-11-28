@@ -1,24 +1,48 @@
-# README
+# Portfolio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This is a REST SPI server to provide the necessary data to different forms of my portfolio, The front end's are free to customize
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby
+- PostgreSQL
 
-* System dependencies
+## Live Demo
 
-* Configuration
+[Go live](https://portfolio-backend-h2ot.onrender.com/) 🙂
 
-* Database creation
+## Getting Started
 
-* Database initialization
+1. Open [the main branch](https://github.com/Tadesse-Alemayehu/Portfolio-backend)
+2. Open VSCode or terminal and navigate to the folder where you would like to clone the project.
+3. Type "pwd" to see your working directory.
+4. [clone repository](git@github.com:Tadesse-Alemayehu/porfolio)(git clone "branch-link")
+5. Run "npm install" to install required packages
+6. Run "index.html" with a live server or any web browser
+7. Enjoy 😎
 
-* How to run the test suite
+## Authors
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 **Tadesse Alemayehu**
 
-* Deployment instructions
+- GitHub: [@githubhandle](https://github.com/Tadesse-Alemayehu)
+- Twitter: [@twitterhandle](https://twitter.com/TadesseWebDev)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tadesse-alemayehu-60141a221/)
 
-* ...
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Submit an issue
+
+[Issue page](https://github.com/Tadesse-Alemayehu/Portfolio-backend/issues)
+
+## Acknowledgments
+
+- Microverse for amusing learning resources.
+- Microverse code reviewers.
+- You! 🙏🏼 yes you... for visiting.
+
+## 📝 License
+
+LICENCED UNDER [MIT License](LICENSE)
