@@ -17,9 +17,23 @@
 2. Open VSCode or terminal and navigate to the folder where you would like to clone the project.
 3. Type "pwd" to see your working directory.
 4. [clone repository](git@github.com:Tadesse-Alemayehu/porfolio)(git clone "branch-link")
-5. Run "npm install" to install required packages
+5. Run "npm install" to install the required packages.
 6. Run "index.html" with a live server or any web browser
 7. Enjoy 😎
+
+## Hit the API
+
+- Get all projects
+
+```bash
+localhost:3000/api/v1/projects
+```
+
+- Get all my skills
+
+```bash
+http://localhost:3000/api/v1/technologies
+```
 
 ## Authors
 
