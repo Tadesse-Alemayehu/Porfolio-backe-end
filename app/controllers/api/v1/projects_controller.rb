@@ -1,11 +1,11 @@
 class Api::V1::ProjectsController < ApplicationController
   def index
     mapped=[]
-    projects=Project.preload(:technologies)
+    projects=Project.includes(:technologies)
     projects.each  do |project|
-      p project
+      mapped.push({project: project, technologies: project.technologies})
     end
-    render json: projects, status: 200
+    render json: mapped, status: 200
   end
   def show
     # p project_param
