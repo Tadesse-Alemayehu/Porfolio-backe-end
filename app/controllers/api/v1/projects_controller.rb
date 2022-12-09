@@ -1,6 +1,11 @@
 class Api::V1::ProjectsController < ApplicationController
   def index
-    render json: Project.all, status: 200
+    mapped=[]
+    projects=Project.preload(:technologies)
+    projects.each  do |project|
+      p project
+    end
+    render json: projects, status: 200
   end
   def show
     # p project_param
@@ -14,7 +19,7 @@ class Api::V1::ProjectsController < ApplicationController
   end
 
   def technologies
-     technologies=Project.find_by_id(params[:project_id])&.technology_names
+    technologies=Project.find_by_id(params[:project_id])&.technology_names
     if technologies
       render json: technologies
     else
@@ -23,7 +28,4 @@ class Api::V1::ProjectsController < ApplicationController
     end
   end
   private
-  # def project_param
-  #   params.require(:project).permit(:id)
-  # end
 end
