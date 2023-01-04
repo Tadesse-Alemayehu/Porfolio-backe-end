@@ -250,3 +250,94 @@ Project.create([  {
   ]);
 
 
+Certification.create!([
+  {title: "MongoDB",
+    description: "I have learnt the fundamental concept behind NoSql. Including connecting to a MongoDB database, how to conduct simple CRUD operations, and key topics such as aggregation, indexing, data modeling, and transactions.",
+    from: "MongoDB University",
+    image: "",
+    link: "https://university.mongodb.com/course_completion/4f7bfb40-7afa-4299-937a-bed4a416f35f"
+  },
+  {title: "Comprehensive Ruby Programming",
+    description: "This course becomes one of my comprehensive Ruby coding guide. Starting with the foundational principles such as syntax and scaling up to advanced topics like MetaProgramming and Big data analysis",
+    from: "Udemy",
+    image: "",
+    link: "https://udemy-certificate.s3.amazonaws.com/image/UC-f1caac68-990e-494e-bdbc-920198758557.jpg"
+  },
+  {title: "Ruby on Rails",
+    description: "Students earn this credential upon demonstrating mastery of Ruby on Rails by building multiple real-world Rails applications alongside software developers from all over the world.",
+    from: "Microverse",
+    image: "",
+    link: "https://www.credential.net/06ece38f-b526-475c-8d33-f4a6af71dc05"
+  },
+  {title: "Ruby/Databases",
+    description: "Students earn this credential after demonstrating thorough and complete understanding of Ruby and databases by building multiple projects while collaborating and pair programming remotely with developers across the world.",
+    from: "Microverse",
+    image: "",
+    link: "https://www.credential.net/55251571-eed4-4538-9bc7-2c33ac3f67d4"
+  },
+  {title: "Front End Development Libraries",
+    description: "I have learnt how to style my site quickly with Bootstrap. I also learnt how to add logic to my CSS styles and extend them with Sass. Later, I have built a shopping cart and other applications to learn how to create powerful Single Page Applications (SPAs) with React and Redux.",
+    from: "FreeCodeCamp",
+    image: "",
+    link: "https://www.freecodecamp.org/certification/tadesse-alemayehu/front-end-development-libraries"
+  },
+  {title: "JavaScript (Intermediate)",
+    description: "I have learnt how to use JavaScript to manipulate web pages and create dynamic content. I also learnt how to use JavaScript to create interactive web pages and applications.",
+    from: "HackerRank",
+    image: "",
+    link: "https://www.hackerrank.com/certificates/dd15744ddc11"
+  },
+  {title: "React & Redux",
+    description: "Students earn this credential after demonstrating thorough understanding and mastery of React and Redux. Over the course of this module, students build and develop multiple projects using React and Redux, working both independently and while remotely pair-programming.",
+    from: "Microverse",
+    image: "",
+    link: "https://www.credential.net/93362c5b-2013-45a9-98da-7c05d2ed0b47"
+  },
+  {title: "React (Basic)",
+    description: "I have learnt how to use React to create interactive web pages and applications. I also learnt how to use React to create Single Page Applications (SPAs).",
+    from: "HackerRank",
+    image: "",
+    link: "https://www.hackerrank.com/certificates/11321bb89a70"
+  },
+  {title: "JavaScript",
+    description: "Students earn this credential after demonstrating understanding and mastery of JavaScript. During the course of this module, they build several projects using JavaScript while pair-programming remotely with an international team of software developers.",
+    from: "Microverse",
+    image: "",
+    link: "https://www.credential.net/c57edc97-05ce-4235-bf7b-df8eb62f45ac"
+  },
+  {title: "JavaScript (Basic)",
+    description: "I have learnt how to use JavaScript to manipulate web pages and create dynamic content. I also learnt how to use JavaScript to create interactive web pages and applications.",
+    from: "HackerRank",
+    image: "",
+    link: "https://www.hackerrank.com/certificates/62f1ea7d49fb"
+  },
+  {title: "HTML/CSS",
+    description: "Students earn this credential after demonstrating industry standard HTML and CSS skills, achieved working on remote pair programming with teams from around the world.",
+    from: "Microverse",
+    image: "",
+    link: "https://www.credential.net/55162051-4476-4ba3-b1bc-011bc5f09651"
+  },
+  {title: "Problem Solving (Basic)",
+    description: "I have solve solved data structures and algorithms problems using JavaScript. I have learn the fundamental concepts of data structures and algorithms, and how to apply them to solve real-world problems.",
+    from: "HackerRank",
+    image: "",
+    link: "https://www.hackerrank.com/certificates/fea59d345786"
+  },
+  {title: "JavaScript Algorithms and Data Structures",
+    description: "I have learned fundamental programming concepts in JavaScript. I have started with basic data structures like numbers and strings. Then I also learn to work with arrays, objects, functions, loops, and more.",
+    from: "FreeCodeCamp",
+    image: "",
+    link: "https://www.freecodecamp.org/certification/tadesse-alemayehu/javascript-algorithms-and-data-structures"
+  },
+  {title: "Responsive Web Design",
+    description: "",
+    image: "",
+    link: "https://www.freecodecamp.org/certification/tadesse-alemayehu/responsive-web-design"
+  },
+  {title: "Certificate of appreciation",
+    description: "I developed a web application with a complex database design that Helps the government manage the flow of faremaciuticals in the country",
+    from: "Bahir Dar University",
+    image: "",
+    link: "https://www.linkedin.com/in/tadesse-alemayehu-full-stack-developer/overlay/education/796941109/multiple-media-viewer/?treasuryMediaId=1635506505774"
+  }
+]);
