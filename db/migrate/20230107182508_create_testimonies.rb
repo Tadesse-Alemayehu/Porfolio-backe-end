@@ -5,8 +5,10 @@ class CreateTestimonies < ActiveRecord::Migration[7.0]
       t.string :title
       t.string :image
       t.string :testimony
+      t.string :email
       t.string :linkedin
       t.string :twitter
+      t.string :github
 
       t.timestamps
     end

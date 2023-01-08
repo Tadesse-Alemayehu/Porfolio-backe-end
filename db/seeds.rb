@@ -1,12 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
-
-
 
   # TODO: update skill level and description of the technologies
 Technology.create([{
@@ -197,56 +188,6 @@ Project.create([  {
        Technology.find_by(name: "Redux"),
        Technology.find_by(name: "Jest"),
        Technology.find_by(name: "React Test Library")]
-  }
-  # ,{
-  #   name: "To do lists",
-  #   title: "To do list organizer",
-  #   description: "This is a single-page application (SPA) that you can use to organize your daily schedule. You can create a task ✍🏼, mark a task as completed ✔, update its details ⚒, or delete it 🚩.All this without needing to reload a page. ✔",
-  #   desktop_pic: "/images/pictures/project-snapshots/PNG/To-Do-list.png",
-  #   mobile_pic:  "/images/pictures/project-snapshots/PNG/card/To-Do-list.png",
-  #   live_link: "https://tadesse-alemayehu.github.io/To-Do-list/",
-  #   source_code: "https://github.com/Tadesse-Alemayehu/To-Do-list",
-  #   technologies: [
-  #      Technology.find_by(name: "JavaScript"),
-  #      Technology.find_by(name: "React"),
-  #      Technology.find_by(name: "Redux"),
-  #      Technology.find_by(name: "Jest"),
-  #      Technology.find_by(name: "React Test Library")]
-  # },{
-  #   name: "Learn to code",
-  #   title: "Learn to code",
-  #   description: "Learn to code is a website I plan to use for my coding class (website) ✍🏼 where I'll be teaching students all about programming and coding in general and web development in particular. 😎 This project is totally made with JavaScript, CSS3 and HTML only.",
-  #   desktop_pic: "/images/pictures/project-snapshots/PNG/LEARN-TO-CODE.png",
-  #   mobile_pic:  "/images/pictures/project-snapshots/PNG/card/LEARN-TO-CODE.png",
-  #   live_link: "https://tadesse-alemayehu.github.io/LEARN-TO-CODE/",
-  #   source_code: "https://github.com/Tadesse-Alemayehu/LEARN-TO-CODE",
-  #   technologies: [Technology.find_by(name: "JavaScript")]
-  # }
-  # ,{
-  #   name: "Rock-Paper-Scissors",
-  #   title: "Learn to code",
-  #   description: "Play this with a computer see if you can beat it 😎",
-  #   desktop_pic: "/images/pictures/project-snapshots/PNG/Rock-Paper-Scissors-Advance.png",
-  #   mobile_pic:   "/images/pictures/project-snapshots/PNG/card/Rock-Paper-Scissors-Advance.png",
-  #   live_link:  "https://tadesse-alemayehu.github.io/Rock-Paper-Scissors-Advance/",
-  #   source_code: "https://github.com/Tadesse-Alemayehu/Rock-Paper-Scissors-Advance",
-  # },{
-  #   name: "Etch-A-Sketch",
-  #   title: "Project two(drawing board)",
-  #   description: "So you love to draw? Good! This is an Etch-a-sketch project and you can create an awesome drawing board with your pre-defined pixel range and draw your picture.",
-  #   desktop_pic: "/images/pictures/project-snapshots/PNG/Etch-A-Sketch.png",
-  #   mobile_pic:   "/images/pictures/project-snapshots/PNG/card/Etch-A-Sketch.png",
-  #   live_link: "https://tadesse-alemayehu.github.io/Etch-A-Sketch/",
-  #   source_code: "https://github.com/Tadesse-Alemayehu/Etch-A-Sketch",
-  # },{
-  #   name: "YouTube-Clone",
-  #   title: "Project five. Microverse Bootcamp",
-  #   description: "Cloning a simple YouTube page with just HTML and CSS.",
-  #   desktop_pic: "/images/pictures/project-snapshots/PNG/YouTube-Clone.png",
-  #   mobile_pic: "/images/pictures/project-snapshots/PNG/card/YouTube-Clone.png",
-  #   live_link: "https://tadesse-alemayehu.github.io/YouTube-Clone/",
-  #   source_code: "https://github.com/Tadesse-Alemayehu/YouTube-Clone",
-  # }
   ]);
 
 
@@ -341,4 +282,81 @@ Certification.create!([
     image: "/certifications/Certificate-of-appreciacion-BDU.jpg",
     link: "https://www.linkedin.com/in/tadesse-alemayehu-full-stack-developer/overlay/education/796941109/multiple-media-viewer/?treasuryMediaId=1635506505774"
   }
+]);
+
+Testimony.create([
+  {
+    name: "Oshane Creary"
+    title: "Software Engineer"
+    image: ""
+    testimony: "Tadesse has all the qualities and skillset of a world class Full Stack Web Developer. Very proficient in writing clean and functional code. He is also a excellent communicator, great professional and extremely knowledgeable about programming. The projects he has worked on and built are really impressive and amazing."
+    email: "orlando.199creary@gmail.com"
+    linkedin: "https://www.linkedin.com/in/ocreary/"
+    twitter: "https://twitter.com/ocrearyy"
+    github: "https://api.github.com/users/ocrearyy"
+  },{
+    name: "Henry Nawrocki Sztanski"
+    title: "Ruby Full Stack Developer at BairesDev"
+    image: ""
+    testimony: "I had the pleasure to work and code with Tadesse. He is not only a great web developer but also a great team member that will help you go through challenging situations.
+Tadesse is constantly exploring new technologies and has a great skill set that makes him one of the best web developers to work with.
+He will always find a way to solve a problem; he is persistent and is someone you can trust."
+    email: "henry@sztanski.com"
+    linkedin: "https://www.linkedin.com/in/henry-nawrocki/"
+    twitter: "https://twitter.com/hsztanski"
+    github: "https://github.com/hsztan"
+  },{
+    name: "Selase Dewu "
+    title: "Full-Stack Web Developer"
+    image: ""
+    testimony: "I have had the pleasure of studying and working with Tadesse. In my estimation, Tadesse ranks amongst the top 10% of software developers I know. He has an excellent analytical mind, readily applying his skills and knowledge to new tasks and issues.
+
+He possesses excellent written and verbal communication skills and a natural ability to motivate and lead others. I can attest to his ability to solve challenges efficiently, and you can trust him to deliver on schedule.
+
+If you need a software developer to help move your team from point A to B, make Tadesse the choice. He is an individual I would readily accept on my team without reservation. I highly recommend him."
+    email: "dewslyse@gmail.com"
+    linkedin: "https://www.linkedin.com/in/selase-dewu/"
+    twitter: ""
+    github: "https://github.com/dewslyse"
+  },{
+    name: "Aaron Keegan"
+    title: "Full-stack developer"
+    image: ""
+    testimony: "I personally recommend Tadesse for any project or team in need of a good Developer. Beyond his coding skills, I have found that Tadesse holds a high level of skill with many needed soft-skills a good team member should have. A few of those skills are communication, teamwork, and collaboration.
+
+When needed, Tadesse had always taken opportunities to educate his peers when they are struggling. Tadesse is a natural mentor and loves to share his experiences with new coding techniques. I find that Tadesse is very active in contributing to the online community of developers and he is a great person to talk to which makes him very easy to work with.
+
+Any team would be lucky to have Tadesse working with them."
+    email: "akeegan.dev@gmail.com"
+    linkedin: "https://www.linkedin.com/in/akeegandev/"
+    twitter: "https://twitter.com/AkeeganDev"
+    github: "https://github.com/AKeeganDev"
+  },{
+    name: "Augusto Galindo Ali"
+    title: "Full-Stack Developer"
+    image: ""
+    testimony: "Tadesse is a very knowledgeable guy, he was able to come up with solutions to tough challenges very quickly and explained it in an understandable way to his partners. Also, he is always willing to help someone stuck. I would love to work with him again."
+    email: "augusto.galindo.9@icloud.com"
+    linkedin: "https://www.linkedin.com/in/augustogalindo/"
+    twitter: ""
+    github: "https://github.com/jsug9"
+  },{
+    name: "Afam Ifeanyi (chrys) Malieze"
+    title: "Full-Stack Developer"
+    image: ""
+    testimony: "Tadesse Alemayehu is a highly motivated, focused, result-driven Software Developer who is open to learning and willing to teach. I have reviewed some of his projects and find that he has depth in his insight into solving complex problems in a subtle and simplistic manner. I highly recommend him as a team member who can be relied upon and someone who is up to the task when it comes to working collaboratively and dealing with various challenges in any industry he finds himself in."
+    email: "afam_ifeanyi@live.com"
+    linkedin: "https://www.linkedin.com/in/afam-chrys/"
+    twitter: "https://twitter.com/afam_ifeanyi"
+    github: "https://github.com/chrystalme"
+  },{
+    name: "Have Samuel Kabareebe"
+    title: "Full Stack Software Developer"
+    image: ""
+    testimony: "During our journey at Microverse, we work as a team, Tadesse is one reliable teammate that you are very sure that any blockers are seen through. He empowers you while you are working and makes you want to always move ahead of the tasks on the table, Any company hiring will be unlucky if they missed him."
+    email: "samiehave9@gmail.com"
+    linkedin: "https://www.linkedin.com/in/have-samuel/"
+    twitter: "https://twitter.com/samhave"
+    github: "https://github.com/Have-Samuel"
+  },
 ]);
