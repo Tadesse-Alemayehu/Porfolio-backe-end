@@ -298,7 +298,7 @@ Testimony.create([
     email: "orlando.199creary@gmail.com",
     linkedin: "https://www.linkedin.com/in/ocreary/",
     twitter: "https://twitter.com/ocrearyy",
-    github: "https://api.github.com/users/ocrearyy",
+    github: "https://github.com/ocrearyy",
   },{
     name: "Henry Nawrocki Sztanski",
     title: "Ruby Full Stack Developer at BairesDev",
