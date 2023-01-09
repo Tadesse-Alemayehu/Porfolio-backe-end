@@ -168,7 +168,7 @@ Project.create([  {
     desktop_pic: "/images/pictures/project-snapshots/PNG/book-store.png",
     mobile_pic:  "/images/pictures/project-snapshots/PNG/card/book-store.png",
     live_link: "https://tadesse-bookstore.netlify.app/",
-    source_code: "https://github.com/Tadesse-Alemayehu/Bookstore",      technologies: [
+    source_code: "https://github.com/Tadesse-Alemayehu/Bookstore",    technologies: [
        Technology.find_by(name: "JavaScript"),
        Technology.find_by(name: "React"),
        Technology.find_by(name: "Redux"),
@@ -188,7 +188,7 @@ Project.create([  {
        Technology.find_by(name: "Redux"),
        Technology.find_by(name: "Jest"),
        Technology.find_by(name: "React Test Library")]
-  ]);
+  }]);
 
 
 Certification.create!([
@@ -286,77 +286,77 @@ Certification.create!([
 
 Testimony.create([
   {
-    name: "Oshane Creary"
-    title: "Software Engineer"
-    image: ""
-    testimony: "Tadesse has all the qualities and skillset of a world class Full Stack Web Developer. Very proficient in writing clean and functional code. He is also a excellent communicator, great professional and extremely knowledgeable about programming. The projects he has worked on and built are really impressive and amazing."
-    email: "orlando.199creary@gmail.com"
-    linkedin: "https://www.linkedin.com/in/ocreary/"
-    twitter: "https://twitter.com/ocrearyy"
-    github: "https://api.github.com/users/ocrearyy"
+    name: "Oshane Creary",
+    title: "Software Engineer",
+    image: "testimonials/Oshane.jpeg",
+    testimony: "Tadesse has all the qualities and skillset of a world class Full Stack Web Developer. Very proficient in writing clean and functional code. He is also a excellent communicator, great professional and extremely knowledgeable about programming. The projects he has worked on and built are really impressive and amazing.",
+    email: "orlando.199creary@gmail.com",
+    linkedin: "https://www.linkedin.com/in/ocreary/",
+    twitter: "https://twitter.com/ocrearyy",
+    github: "https://api.github.com/users/ocrearyy",
   },{
-    name: "Henry Nawrocki Sztanski"
-    title: "Ruby Full Stack Developer at BairesDev"
-    image: ""
+    name: "Henry Nawrocki Sztanski",
+    title: "Ruby Full Stack Developer at BairesDev",
+    image: "testimonials/Henry-Nawrocki-Sztanski.jpeg",
     testimony: "I had the pleasure to work and code with Tadesse. He is not only a great web developer but also a great team member that will help you go through challenging situations.
 Tadesse is constantly exploring new technologies and has a great skill set that makes him one of the best web developers to work with.
-He will always find a way to solve a problem; he is persistent and is someone you can trust."
-    email: "henry@sztanski.com"
-    linkedin: "https://www.linkedin.com/in/henry-nawrocki/"
-    twitter: "https://twitter.com/hsztanski"
-    github: "https://github.com/hsztan"
+He will always find a way to solve a problem; he is persistent and is someone you can trust.",
+    email: "henry@sztanski.com",
+    linkedin: "https://www.linkedin.com/in/henry-nawrocki/",
+    twitter: "https://twitter.com/hsztanski",
+    github: "https://github.com/hsztan",
   },{
-    name: "Selase Dewu "
-    title: "Full-Stack Web Developer"
-    image: ""
+    name: "Selase Dewu ",
+    title: "Full-Stack Web Developer",
+    image: "testimonials/Selase-Dewu.jpeg",
     testimony: "I have had the pleasure of studying and working with Tadesse. In my estimation, Tadesse ranks amongst the top 10% of software developers I know. He has an excellent analytical mind, readily applying his skills and knowledge to new tasks and issues.
 
 He possesses excellent written and verbal communication skills and a natural ability to motivate and lead others. I can attest to his ability to solve challenges efficiently, and you can trust him to deliver on schedule.
 
-If you need a software developer to help move your team from point A to B, make Tadesse the choice. He is an individual I would readily accept on my team without reservation. I highly recommend him."
-    email: "dewslyse@gmail.com"
-    linkedin: "https://www.linkedin.com/in/selase-dewu/"
-    twitter: ""
-    github: "https://github.com/dewslyse"
+If you need a software developer to help move your team from point A to B, make Tadesse the choice. He is an individual I would readily accept on my team without reservation. I highly recommend him.",
+    email: "dewslyse@gmail.com",
+    linkedin: "https://www.linkedin.com/in/selase-dewu/",
+    twitter: "",
+    github: "https://github.com/dewslyse",
   },{
-    name: "Aaron Keegan"
-    title: "Full-stack developer"
-    image: ""
+    name: "Aaron Keegan",
+    title: "Full-stack developer",
+    image: "testimonials/Aaron-Keegan.jpeg",
     testimony: "I personally recommend Tadesse for any project or team in need of a good Developer. Beyond his coding skills, I have found that Tadesse holds a high level of skill with many needed soft-skills a good team member should have. A few of those skills are communication, teamwork, and collaboration.
 
 When needed, Tadesse had always taken opportunities to educate his peers when they are struggling. Tadesse is a natural mentor and loves to share his experiences with new coding techniques. I find that Tadesse is very active in contributing to the online community of developers and he is a great person to talk to which makes him very easy to work with.
 
-Any team would be lucky to have Tadesse working with them."
-    email: "akeegan.dev@gmail.com"
-    linkedin: "https://www.linkedin.com/in/akeegandev/"
-    twitter: "https://twitter.com/AkeeganDev"
-    github: "https://github.com/AKeeganDev"
+Any team would be lucky to have Tadesse working with them.",
+    email: "akeegan.dev@gmail.com",
+    linkedin: "https://www.linkedin.com/in/akeegandev/",
+    twitter: "https://twitter.com/AkeeganDev",
+    github: "https://github.com/AKeeganDev",
   },{
-    name: "Augusto Galindo Ali"
-    title: "Full-Stack Developer"
-    image: ""
-    testimony: "Tadesse is a very knowledgeable guy, he was able to come up with solutions to tough challenges very quickly and explained it in an understandable way to his partners. Also, he is always willing to help someone stuck. I would love to work with him again."
-    email: "augusto.galindo.9@icloud.com"
-    linkedin: "https://www.linkedin.com/in/augustogalindo/"
-    twitter: ""
-    github: "https://github.com/jsug9"
+    name: "Augusto Galindo Ali",
+    title: "Full-Stack Developer",
+    image: "testimonials/Augusto-Galindo-Ali.jpeg",
+    testimony: "Tadesse is a very knowledgeable guy, he was able to come up with solutions to tough challenges very quickly and explained it in an understandable way to his partners. Also, he is always willing to help someone stuck. I would love to work with him again.",
+    email: "augusto.galindo.9@icloud.com",
+    linkedin: "https://www.linkedin.com/in/augustogalindo/",
+    twitter: "",
+    github: "https://github.com/jsug9",
   },{
-    name: "Afam Ifeanyi (chrys) Malieze"
-    title: "Full-Stack Developer"
-    image: ""
-    testimony: "Tadesse Alemayehu is a highly motivated, focused, result-driven Software Developer who is open to learning and willing to teach. I have reviewed some of his projects and find that he has depth in his insight into solving complex problems in a subtle and simplistic manner. I highly recommend him as a team member who can be relied upon and someone who is up to the task when it comes to working collaboratively and dealing with various challenges in any industry he finds himself in."
-    email: "afam_ifeanyi@live.com"
-    linkedin: "https://www.linkedin.com/in/afam-chrys/"
-    twitter: "https://twitter.com/afam_ifeanyi"
-    github: "https://github.com/chrystalme"
+    name: "Afam Ifeanyi (chrys) Malieze",
+    title: "Full-Stack Developer",
+    image: "testimonials/Afam-Ifeanyi-Malieze.jpeg",
+    testimony: "Tadesse Alemayehu is a highly motivated, focused, result-driven Software Developer who is open to learning and willing to teach. I have reviewed some of his projects and find that he has depth in his insight into solving complex problems in a subtle and simplistic manner. I highly recommend him as a team member who can be relied upon and someone who is up to the task when it comes to working collaboratively and dealing with various challenges in any industry he finds himself in.",
+    email: "afam_ifeanyi@live.com",
+    linkedin: "https://www.linkedin.com/in/afam-chrys/",
+    twitter: "https://twitter.com/afam_ifeanyi",
+    github: "https://github.com/chrystalme",
   },{
-    name: "Have Samuel Kabareebe"
-    title: "Full Stack Software Developer"
-    image: ""
-    testimony: "During our journey at Microverse, we work as a team, Tadesse is one reliable teammate that you are very sure that any blockers are seen through. He empowers you while you are working and makes you want to always move ahead of the tasks on the table, Any company hiring will be unlucky if they missed him."
-    email: "samiehave9@gmail.com"
-    linkedin: "https://www.linkedin.com/in/have-samuel/"
-    twitter: "https://twitter.com/samhave"
-    github: "https://github.com/Have-Samuel"
+    name: "Have Samuel Kabareebe",
+    title: "Full Stack Software Developer",
+    image: "testimonials/Have-Samuel-Kabareebe.jpeg",
+    testimony: "During our journey at Microverse, we work as a team, Tadesse is one reliable teammate that you are very sure that any blockers are seen through. He empowers you while you are working and makes you want to always move ahead of the tasks on the table, Any company hiring will be unlucky if they missed him.",
+    email: "samiehave9@gmail.com",
+    linkedin: "https://www.linkedin.com/in/have-samuel/",
+    twitter: "https://twitter.com/samhave",
+    github: "https://github.com/Have-Samuel",
   },
 ]);
