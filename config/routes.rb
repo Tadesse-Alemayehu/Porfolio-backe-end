@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       resources :technologies, only: %i[index]
       resources :messages, only: %i[index show create]
       resources :certifications, only: %i[index]
+      resources :testimonials, only: %i[index]
     end
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
