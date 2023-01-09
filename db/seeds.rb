@@ -36,6 +36,11 @@ Technology.create([{
       tech_type: "Frontend",
       description: "",
       skill_level: 9},{
+      name: "TailwindCSS",
+      icon: "/images/technologies/bootstrap.svg",
+      tech_type: "Frontend",
+      description: "",
+      skill_level: 9},{
       name: "Bootstrap",
       icon: "/images/technologies/bootstrap.svg",
       tech_type: "Frontend",
