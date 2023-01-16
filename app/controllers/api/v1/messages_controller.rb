@@ -14,7 +14,8 @@ class Api::V1::MessagesController < ApplicationController
     end
   end
   def create
-    message=Message.new(full_name: params[:full_name],email: params[:email],message: params[:message])
+    p params
+    message=Message.new(full_name: params[:full_name],email: params[:email],phone_number: params[:phone_number],message: params[:message])
     if message.save
       render json: {"message": "success in submitting your message", status: 200}, status: :ok
     else
