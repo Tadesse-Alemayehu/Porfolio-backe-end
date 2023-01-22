@@ -200,6 +200,7 @@ Certification.create!([
   {title: "MongoDB",
     description: "I have learnt the fundamental concept behind NoSql. Including connecting to a MongoDB database, how to conduct simple CRUD operations, and key topics such as aggregation, indexing, data modeling, and transactions.",
     from: "MongoDB University",
+    hash: "|3S6V#0000000000000000}^0xxu-pEJwOIoj[xa^lgLIUIBEKr^S0%2%3?uxIE1InxISwt7ofRjxvkUs;e:IUM{RjkCxu.7$,IoR%-WI-nlt7X6VaE0-p%MSw-WS0M{Rj^,%M%MM{E0n%ofNGRkk;?IWBE1nlX5ofRjRj"
     image: "/certifications/mongodb.jpg",
     link: "https://university.mongodb.com/course_completion/4f7bfb40-7afa-4299-937a-bed4a416f35f"
   },
