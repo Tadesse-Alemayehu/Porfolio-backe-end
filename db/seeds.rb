@@ -1,118 +1,118 @@
 
-  # TODO: update skill level and description of the technologies
 Technology.create([{
       name: "Adobe XD",
       icon: "/images/technologies/adobe_xd_480px.svg",
       tech_type: "Design",
-      description: "",
-      skill_level: 9},{
+      description: "I can design and do a prototype of a website interaction and communicate the design in an intuitive way with clients before the development phase commence",
+      skill_level: 6},{
       name: "Illustrator",
       icon: "/images/technologies/adobe_illustrator_480px.svg",
       tech_type: "Design",
-      description: "",
-      skill_level: 9},{
+      description: "I design professional logos and world class vector graphics, from simple icons to complex 3D objects. Everything you see inside my portfolio is designed with AdobeXD and AdobeIL",
+      skill_level: 6},{
       name: "Figma",
       icon: "/images/technologies/figma_480px.svg",
       tech_type: "Design",
-      description: "",
-      skill_level: 9},{
+      description: "Okay, 😊 Maybe I'm not as expert as much as AdobeXD but I'm defiantly parse many designs from Figma template, I can discuss Figma design with UI/Ux designers and even make a suggestion.",
+      skill_level: 4},{
       name: "Adobe Photoshop",
       icon: "/images/technologies/adobe_photoshop_480px.svg",
       tech_type: "Design",
-      description: "",
-      skill_level: 9},{
+      description: "It's a common task for a developer to be able to provide a performance wise pictures, I use Adobe photoshop to deal with editing and optimizing raster images.",
+      skill_level: 5},{
       name: "JavaScript",
       icon: "/images/technologies/javascript.svg",
       tech_type: "Frontend",
-      description: "",
-      skill_level: 9},{
-      name: "React",
+      description: "I have more than 5 years of development experience with JavaScrip, I know the ins and outs of most advance concepts.",
+      skill_level: 10},{
+      name: "ReactJS",
       icon: "/images/technologies/react.svg",
       tech_type: "Frontend",
-      description: "",
+      description: "Well, developing web app with React is a joy. I have developed many web apps with React and I'm still learning new things everyday.",
       skill_level: 9},{
       name: "Redux",
       icon: "/images/technologies/redux_480px.svg",
       tech_type: "Frontend",
       description: "",
       skill_level: 9},{
+      name: "VueJa",
+      icon: "/images/technologies/redux_480px.svg",
+      tech_type: "Frontend",
+      description: "Next to react, VueJs is my favorite frontend framework. I have developed many web apps with VueJs and I'm still learning new things everyday.",
+      skill_level: 9},{
       name: "TailwindCSS",
       icon: "/images/technologies/tailwindcss.svg",
       tech_type: "Frontend",
-      description: "",
-      skill_level: 9},{
+      description: "Amazing utility first CSS framework, I use it to build many web apps and enjoy the experience.",
+      skill_level: 7},{
       name: "Bootstrap",
       icon: "/images/technologies/bootstrap.svg",
       tech_type: "Frontend",
-      description: "",
-      skill_level: 9},{
-      name: "CSS3",
-      icon: "/images/technologies/css.svg",
-      tech_type: "Frontend",
-      description: "",
-      skill_level: 9},{
+      description: "Bootstrap is among the common CSS frameworks out there and I have hands on experience with it.",
+      skill_level: 7},{
       name: "Ruby",
       icon: "/images/technologies/ruby.svg",
       tech_type: "Backend",
-      description: "",
-      skill_level: 9},{
+      description: "My love for OOP is deep. As a result I have worked with many OOP languages but Ruby becomes my favorite. I can deal with network, database, promise and other concepts with in.",
+      skill_level: 10},{
       name: "Ruby on Rails",
       icon: "/images/technologies/rails.svg",
       tech_type: "Backend",
-      description: "",
-      skill_level: 9},{
+      description: "It's no secret I favor backend development, I love dealing with the network request, database setup and optimization.",
+      skill_level: 10},{
       name: "NodeJS",
       icon: "/images/technologies/Node_Js_240px.svg",
       tech_type: "Backend",
-      description: "",
+      description: "As a javascript full stack engineer I have developed many apps and obviously node is the back engine behind all of the apps.",
       skill_level: 9},{
       name: "ExpressJS",
       icon: "/images/technologies/express.svg",
       tech_type: "Backend",
-      description: "",
+      description: "ExpressJs is the most popular node framework and I have used it to build many apps.",
       skill_level: 9},{
       name: "PostgreSQL",
       icon: "/images/technologies/postgresql_480px.svg",
       tech_type: "Database",
-      description: "",
-      skill_level: 9},{
+      description: "PostgreSQL is my favorite database, I have used it to build many apps and I'm still learning new things everyday.",
+      skill_level: 8},{
       name: "MongoDB",
       icon: "/images/technologies/mongodb_480px.svg",
       tech_type: "Database",
-      description: "",
-      skill_level: 9},{
+      description: "MongoDB is a great database for many use cases, I have used it to build many apps and I'm still learning new things everyday.",
+      skill_level: 8},{
       name: "MsSQL",
       icon: "/images/technologies/microsoft_sql_server_480px.svg",
       tech_type: "Database",
-      description: "",
-      skill_level: 9},{
+      description: "I design my graduation project with Microsoft SQL Server, the experience was great and I have used it to build many apps.",
+      skill_level: 7},{
       name: "MySql",
       icon: "/images/technologies/MySQL_Logo_96px.svg",
       tech_type: "Database",
-      description: "",
+      description: "I love working with relational databases and MySql is one of the most popular relational database out there.",
       skill_level: 9},{
       name: "RSpec",
       icon: "/images/technologies/rspec.svg",
       tech_type: "Test",
-      description: "",
-      skill_level: 9},{
+      description: "Rspec is the most popular testing framework for Ruby, I have used it to test many apps and I'm still learning new things everyday.",
+      skill_level: 8},{
       name: "Capybara",
       icon: "/images/technologies/capybara.svg",
       tech_type: "Test",
-      description: "",
-      skill_level: 9},{
+      description: "Capybara is the most popular testing framework for Ruby, I have used it to test many apps and I'm still learning new things everyday.",
+      skill_level: 8},{
       name: "Jest",
       icon: "/images/technologies/jest.svg",
       tech_type: "Test",
-      description: "",
-      skill_level: 9},{
+      description: "Jest is the most popular testing framework for JavaScript, I have used it to test many apps and I'm still learning new things everyday.",
+      skill_level: 8},{
       name: "React Test Library",
       icon: "/images/technologies/react_test_library.svg",
       tech_type: "Test",
-      description: "",
+      description: "React Test Library is the most popular testing framework for React, I have used it to test many apps and I'm still learning new things everyday.",
       skill_level: 9}
-    ])
-Project.create([  {
+    ]);
+
+Project.create([{
     name: "Yellow Room",
     title: "An online hotel room reservation app",
     description: "This is an online hotel room reservation app. We give it a fancy name of 'yellow room'
@@ -123,7 +123,7 @@ Project.create([  {
     source_code: "https://github.com/Tadesse-Alemayehu/YellowRooms-Front",
     technologies: [
        Technology.find_by(name: "JavaScript"),
-       Technology.find_by(name: "React"),
+       Technology.find_by(name: "ReactJS"),
        Technology.find_by(name: "Redux"),
        Technology.find_by(name: "Ruby"),
        Technology.find_by(name: "Ruby on Rails"),
@@ -160,7 +160,7 @@ Project.create([  {
     source_code: "https://github.com/Tadesse-Alemayehu/My-weather",
     technologies: [
        Technology.find_by(name: "JavaScript"),
-       Technology.find_by(name: "React"),
+       Technology.find_by(name: "ReduxJs"),
        Technology.find_by(name: "Redux"),
        Technology.find_by(name: "Jest"),
        Technology.find_by(name: "React Test Library")]
@@ -175,7 +175,7 @@ Project.create([  {
     live_link: "https://tadesse-bookstore.netlify.app/",
     source_code: "https://github.com/Tadesse-Alemayehu/Bookstore",    technologies: [
        Technology.find_by(name: "JavaScript"),
-       Technology.find_by(name: "React"),
+       Technology.find_by(name: "ReactJS"),
        Technology.find_by(name: "Redux"),
        Technology.find_by(name: "Jest"),]
   },{
@@ -189,7 +189,7 @@ Project.create([  {
     live_link: "https://tadesse-jorge-space-travelers.netlify.app/",
     source_code: "https://github.com/Tadesse-Alemayehu/Space-Travelers",    technologies: [
        Technology.find_by(name: "JavaScript"),
-       Technology.find_by(name: "React"),
+       Technology.find_by(name: "ReactJS"),
        Technology.find_by(name: "Redux"),
        Technology.find_by(name: "Jest"),
        Technology.find_by(name: "React Test Library")]
@@ -299,7 +299,7 @@ Certification.create!([
     description: "I developed a web application with a complex database design that Helps the government manage the flow of faremaciuticals in the country",
     from: "Bahir Dar University",
     picture_hash: "L9QJ[m}y5$$ut7f6t7oe0cx9VtWY",
-    image: "/certifications/Certificate-of-appreciacion-BDU.jpg",
+    image: "/certifications/Certificate-of-appreciation-BDU.jpg",
     link: "https://www.linkedin.com/in/tadesse-alemayehu-full-stack-developer/overlay/education/796941109/multiple-media-viewer/?treasuryMediaId=1635506505774"
   }
 ]);
@@ -309,7 +309,7 @@ Testimony.create([
     name: "Oshane Creary",
     title: "Software Engineer",
     image: "/testimonials/Oshane.jpeg",
-    testimony: "Tadesse has all the qualities and skillset of a world class Full Stack Web Developer. Very proficient in writing clean and functional code. He is also a excellent communicator, great professional and extremely knowledgeable about programming. The projects he has worked on and built are really impressive and amazing.",
+    testimony: "Tadesse has all the qualities and skill set of a world class Full Stack Web Developer. Very proficient in writing clean and functional code. He is also a excellent communicator, great professional and extremely knowledgeable about programming. The projects he has worked on and built are really impressive and amazing.",
     email: "orlando.199creary@gmail.com",
     linkedin: "https://www.linkedin.com/in/ocreary/",
     twitter: "https://twitter.com/ocrearyy",
