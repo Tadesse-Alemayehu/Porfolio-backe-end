@@ -146,8 +146,7 @@ Project.create([{
        Technology.find_by(name: "PostgreSQL"),
        Technology.find_by(name: "RSpec"),
        Technology.find_by(name: "Capybara")]
-  },
-    {
+  },{
     name: "My weather",
     title: "Check any city for a weather info",
     description: "This app enables users to get instant Information regarding weather conditions.
@@ -160,12 +159,11 @@ Project.create([{
     source_code: "https://github.com/Tadesse-Alemayehu/My-weather",
     technologies: [
        Technology.find_by(name: "JavaScript"),
-       Technology.find_by(name: "ReduxJs"),
+       Technology.find_by(name: "ReactJS"),
        Technology.find_by(name: "Redux"),
        Technology.find_by(name: "Jest"),
        Technology.find_by(name: "React Test Library")]
-  },
-    {
+  },{
     name: "Book Store",
     title: "Store and track your favorite books",
     description: 'The Bookstore is a website similar to the "Awesome Books" website. Here we will create an MVP version of it that allows you to:
