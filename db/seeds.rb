@@ -33,10 +33,10 @@ Technology.create([{
       name: "Redux",
       icon: "/images/technologies/redux_480px.svg",
       tech_type: "Frontend",
-      description: "",
+      description: "Well, managing state could be achieved with many ways, but Redux is the best specially when it comes to large scale apps.",
       skill_level: 9},{
-      name: "VueJa",
-      icon: "/images/technologies/redux_480px.svg",
+      name: "VueJS",
+      icon: "/images/technologies/vue.svg",
       tech_type: "Frontend",
       description: "Next to react, VueJs is my favorite frontend framework. I have developed many web apps with VueJs and I'm still learning new things everyday.",
       skill_level: 9},{
