@@ -1,118 +1,118 @@
 
-  # TODO: update skill level and description of the technologies
 Technology.create([{
       name: "Adobe XD",
       icon: "/images/technologies/adobe_xd_480px.svg",
       tech_type: "Design",
-      description: "",
-      skill_level: 9},{
+      description: "I can design and do a prototype of website interaction and intuitively communicate the design with clients before the development phase commences.",
+      skill_level: 6},{
       name: "Illustrator",
       icon: "/images/technologies/adobe_illustrator_480px.svg",
       tech_type: "Design",
-      description: "",
-      skill_level: 9},{
+      description: "I design professional logos and world-class vector graphics, from simple icons to complex 3D objects. Everything you see inside my portfolio is designed with AdobeXD and AdobeIL.",
+      skill_level: 6},{
       name: "Figma",
       icon: "/images/technologies/figma_480px.svg",
       tech_type: "Design",
-      description: "",
-      skill_level: 9},{
+      description: "Okay, 😊 Maybe I'm not as expert as much as AdobeXD, but I'm defiantly parsing many designs from Figma templates. I can discuss Figma design with UI/Ux designers to the point I can make a suggestion.",
+      skill_level: 4},{
       name: "Adobe Photoshop",
       icon: "/images/technologies/adobe_photoshop_480px.svg",
       tech_type: "Design",
-      description: "",
-      skill_level: 9},{
+      description: "It's a common task for a developer to be able to provide performance-wise pictures. I use Adobe Photoshop to deal with editing and optimizing raster images.",
+      skill_level: 5},{
       name: "JavaScript",
       icon: "/images/technologies/javascript.svg",
       tech_type: "Frontend",
-      description: "",
-      skill_level: 9},{
-      name: "React",
+      description: "I have more than five years of development experience with JavaScrip. In simple words, I'm the master of it. I know the ins and outs of most advanced concepts.",
+      skill_level: 10},{
+      name: "ReactJS",
       icon: "/images/technologies/react.svg",
       tech_type: "Frontend",
-      description: "",
+      description: "Well, developing a web app with React is a joy. I have developed many web apps with React, and I'm still learning new things every day.",
       skill_level: 9},{
       name: "Redux",
       icon: "/images/technologies/redux_480px.svg",
       tech_type: "Frontend",
-      description: "",
+      description: "Well, managing the application state could be achieved in many ways, but Redux is the best and worth mentioning, especially for large-scale apps.",
+      skill_level: 9},{
+      name: "VueJS",
+      icon: "/images/technologies/vue.svg",
+      tech_type: "Frontend",
+      description: "Next, to react, VueJs is my favorite frontend framework. I have developed many web apps with VueJs, and I'm still learning new skills every day.",
       skill_level: 9},{
       name: "TailwindCSS",
-      icon: "/images/technologies/bootstrap.svg",
+      icon: "/images/technologies/tailwindcss.svg",
       tech_type: "Frontend",
-      description: "",
-      skill_level: 9},{
+      description: "An amazing utility-first CSS framework, I use it to build many web apps and enjoy the experience.",
+      skill_level: 7},{
       name: "Bootstrap",
       icon: "/images/technologies/bootstrap.svg",
       tech_type: "Frontend",
-      description: "",
-      skill_level: 9},{
-      name: "CSS3",
-      icon: "/images/technologies/css.svg",
-      tech_type: "Frontend",
-      description: "",
-      skill_level: 9},{
+      description: "Bootstrap is among the common CSS frameworks in the web world, and I have hands-on experience with it.",
+      skill_level: 7},{
       name: "Ruby",
       icon: "/images/technologies/ruby.svg",
       tech_type: "Backend",
-      description: "",
-      skill_level: 9},{
+      description: "My love for OOP is deep. As a result, I have worked with many OOP languages, but Ruby happens to be my favorite. I can deal with networks, databases, promises, and other common concepts.",
+      skill_level: 10},{
       name: "Ruby on Rails",
       icon: "/images/technologies/rails.svg",
       tech_type: "Backend",
-      description: "",
-      skill_level: 9},{
+      description: "It's no secret I favor backend development. I love dealing with tasks that might intimidate most developers, like network request handling, schema design and optimization, and setting up security measures.",
+      skill_level: 10},{
       name: "NodeJS",
       icon: "/images/technologies/Node_Js_240px.svg",
       tech_type: "Backend",
-      description: "",
+      description: "As a JavaScript full-stack engineer, I have developed many apps and obviously, Node is the backbone behind all of the apps.",
       skill_level: 9},{
       name: "ExpressJS",
       icon: "/images/technologies/express.svg",
       tech_type: "Backend",
-      description: "",
+      description: "ExpressJs is the most popular node framework, and I have used it to build many apps.",
       skill_level: 9},{
       name: "PostgreSQL",
       icon: "/images/technologies/postgresql_480px.svg",
       tech_type: "Database",
-      description: "",
-      skill_level: 9},{
+      description: "PostgreSQL is my favorite database, I have used it to build many apps, and I'm still learning new things every day.",
+      skill_level: 8},{
       name: "MongoDB",
       icon: "/images/technologies/mongodb_480px.svg",
       tech_type: "Database",
-      description: "",
-      skill_level: 9},{
+      description: "MongoDB is a great database for many use cases. I'm a certified MongoDB engineer. I have used it to build many apps,  and I'm still learning new things every day.",
+      skill_level: 8},{
       name: "MsSQL",
       icon: "/images/technologies/microsoft_sql_server_480px.svg",
       tech_type: "Database",
-      description: "",
-      skill_level: 9},{
+      description: "I design my graduation project (BSC in computer sience) with Microsoft SQL Server, the experience was great, and I have used it to build many apps.",
+      skill_level: 7},{
       name: "MySql",
       icon: "/images/technologies/MySQL_Logo_96px.svg",
       tech_type: "Database",
-      description: "",
+      description: "I love working with relational databases and MySql is one of the most popular relational database out there.",
       skill_level: 9},{
       name: "RSpec",
       icon: "/images/technologies/rspec.svg",
       tech_type: "Test",
-      description: "",
-      skill_level: 9},{
+      description: "Rspec is the most popular testing framework for Ruby, I have used it to test many apps, and I'm still learning new things every day.",
+      skill_level: 8},{
       name: "Capybara",
-      icon: "/images/technologies/", # TODO: update icons for Capybara
+      icon: "/images/technologies/capybara.svg",
       tech_type: "Test",
-      description: "",
-      skill_level: 9},{
+      description: "Capybara is the most popular testing framework for Ruby, I have used it to test many apps, and I'm still learning new things every day.",
+      skill_level: 8},{
       name: "Jest",
       icon: "/images/technologies/jest.svg",
       tech_type: "Test",
-      description: "",
-      skill_level: 9},{
+      description: "Jest is the most popular testing framework for JavaScript, I have used it to test many apps, and I'm still learning new things every day.",
+      skill_level: 8},{
       name: "React Test Library",
       icon: "/images/technologies/react_test_library.svg",
       tech_type: "Test",
-      description: "",
+      description: "React Test Library is the most popular testing framework for React, I have used it to test many apps, and I'm still learning new things every day.",
       skill_level: 9}
-    ])
-Project.create([  {
+    ]);
+
+Project.create([{
     name: "Yellow Room",
     title: "An online hotel room reservation app",
     description: "This is an online hotel room reservation app. We give it a fancy name of 'yellow room'
@@ -123,7 +123,7 @@ Project.create([  {
     source_code: "https://github.com/Tadesse-Alemayehu/YellowRooms-Front",
     technologies: [
        Technology.find_by(name: "JavaScript"),
-       Technology.find_by(name: "React"),
+       Technology.find_by(name: "ReactJS"),
        Technology.find_by(name: "Redux"),
        Technology.find_by(name: "Ruby"),
        Technology.find_by(name: "Ruby on Rails"),
@@ -146,8 +146,7 @@ Project.create([  {
        Technology.find_by(name: "PostgreSQL"),
        Technology.find_by(name: "RSpec"),
        Technology.find_by(name: "Capybara")]
-  },
-    {
+  },{
     name: "My weather",
     title: "Check any city for a weather info",
     description: "This app enables users to get instant Information regarding weather conditions.
@@ -160,12 +159,11 @@ Project.create([  {
     source_code: "https://github.com/Tadesse-Alemayehu/My-weather",
     technologies: [
        Technology.find_by(name: "JavaScript"),
-       Technology.find_by(name: "React"),
+       Technology.find_by(name: "ReactJS"),
        Technology.find_by(name: "Redux"),
        Technology.find_by(name: "Jest"),
        Technology.find_by(name: "React Test Library")]
-  },
-    {
+  },{
     name: "Book Store",
     title: "Store and track your favorite books",
     description: 'The Bookstore is a website similar to the "Awesome Books" website. Here we will create an MVP version of it that allows you to:
@@ -175,7 +173,7 @@ Project.create([  {
     live_link: "https://tadesse-bookstore.netlify.app/",
     source_code: "https://github.com/Tadesse-Alemayehu/Bookstore",    technologies: [
        Technology.find_by(name: "JavaScript"),
-       Technology.find_by(name: "React"),
+       Technology.find_by(name: "ReactJS"),
        Technology.find_by(name: "Redux"),
        Technology.find_by(name: "Jest"),]
   },{
@@ -189,7 +187,7 @@ Project.create([  {
     live_link: "https://tadesse-jorge-space-travelers.netlify.app/",
     source_code: "https://github.com/Tadesse-Alemayehu/Space-Travelers",    technologies: [
        Technology.find_by(name: "JavaScript"),
-       Technology.find_by(name: "React"),
+       Technology.find_by(name: "ReactJS"),
        Technology.find_by(name: "Redux"),
        Technology.find_by(name: "Jest"),
        Technology.find_by(name: "React Test Library")]
@@ -200,92 +198,106 @@ Certification.create!([
   {title: "MongoDB",
     description: "I have learnt the fundamental concept behind NoSql. Including connecting to a MongoDB database, how to conduct simple CRUD operations, and key topics such as aggregation, indexing, data modeling, and transactions.",
     from: "MongoDB University",
-    hash: "|3S6V#0000000000000000}^0xxu-pEJwOIoj[xa^lgLIUIBEKr^S0%2%3?uxIE1InxISwt7ofRjxvkUs;e:IUM{RjkCxu.7$,IoR%-WI-nlt7X6VaE0-p%MSw-WS0M{Rj^,%M%MM{E0n%ofNGRkk;?IWBE1nlX5ofRjRj"
+    picture_hash: "L9QJ[m}y5$$ut7f6t7oe0cx9VtWY",
     image: "/certifications/mongodb.jpg",
     link: "https://university.mongodb.com/course_completion/4f7bfb40-7afa-4299-937a-bed4a416f35f"
   },
   {title: "Comprehensive Ruby Programming",
     description: "This course becomes one of my comprehensive Ruby coding guide. Starting with the foundational principles such as syntax and scaling up to advanced topics like MetaProgramming and Big data analysis",
     from: "Udemy",
+    picture_hash: "L9QJ[m}y5$$ut7f6t7oe0cx9VtWY",
     image: "/certifications/Comprehensive-Ruby-Programming-udemy.jpg",
     link: "https://udemy-certificate.s3.amazonaws.com/image/UC-f1caac68-990e-494e-bdbc-920198758557.jpg"
   },
   {title: "Ruby on Rails",
     description: "Students earn this credential upon demonstrating mastery of Ruby on Rails by building multiple real-world Rails applications alongside software developers from all over the world.",
     from: "Microverse",
+    picture_hash: "L9QJ[m}y5$$ut7f6t7oe0cx9VtWY",
     image: "/certifications/Ruby-on-Rails-microverse.png",
     link: "https://www.credential.net/06ece38f-b526-475c-8d33-f4a6af71dc05"
   },
   {title: "Ruby/Databases",
     description: "Students earn this credential after demonstrating thorough and complete understanding of Ruby and databases by building multiple projects while collaborating and pair programming remotely with developers across the world.",
     from: "Microverse",
+    picture_hash: "L9QJ[m}y5$$ut7f6t7oe0cx9VtWY",
     image: "/certifications/Ruby-Databases-microverse.png",
     link: "https://www.credential.net/55251571-eed4-4538-9bc7-2c33ac3f67d4"
   },
   {title: "Front End Development Libraries",
     description: "I have learnt how to style my site quickly with Bootstrap. I also learnt how to add logic to my CSS styles and extend them with Sass. Later, I have built a shopping cart and other applications to learn how to create powerful Single Page Applications (SPAs) with React and Redux.",
     from: "FreeCodeCamp",
+    picture_hash: "L9QJ[m}y5$$ut7f6t7oe0cx9VtWY",
     image: "/certifications/Front-End-Development-Libraries-freecodecamp.png",
     link: "https://www.freecodecamp.org/certification/tadesse-alemayehu/front-end-development-libraries"
   },
   {title: "JavaScript (Intermediate)",
     description: "I have learnt how to use JavaScript to manipulate web pages and create dynamic content. I also learnt how to use JavaScript to create interactive web pages and applications.",
     from: "HackerRank",
+    picture_hash: "L9QJ[m}y5$$ut7f6t7oe0cx9VtWY",
     image: "/certifications/JavaScript-Intermediate-hackerRank.png",
     link: "https://www.hackerrank.com/certificates/dd15744ddc11"
   },
   {title: "React & Redux",
     description: "Students earn this credential after demonstrating thorough understanding and mastery of React and Redux. Over the course of this module, students build and develop multiple projects using React and Redux, working both independently and while remotely pair-programming.",
     from: "Microverse",
+    picture_hash: "L9QJ[m}y5$$ut7f6t7oe0cx9VtWY",
     image: "/certifications/React-and-Redux-microverse.png",
     link: "https://www.credential.net/93362c5b-2013-45a9-98da-7c05d2ed0b47"
   },
   {title: "React (Basic)",
     description: "I have learnt how to use React to create interactive web pages and applications. I also learnt how to use React to create Single Page Applications (SPAs).",
     from: "HackerRank",
+    picture_hash: "L9QJ[m}y5$$ut7f6t7oe0cx9VtWY",
     image: "/certifications/React-Basic-hackerRank.png",
     link: "https://www.hackerrank.com/certificates/11321bb89a70"
   },
   {title: "JavaScript",
     description: "Students earn this credential after demonstrating understanding and mastery of JavaScript. During the course of this module, they build several projects using JavaScript while pair-programming remotely with an international team of software developers.",
     from: "Microverse",
+    picture_hash: "L9QJ[m}y5$$ut7f6t7oe0cx9VtWY",
     image: "/certifications/JavaScript-microverse.png",
     link: "https://www.credential.net/c57edc97-05ce-4235-bf7b-df8eb62f45ac"
   },
   {title: "JavaScript (Basic)",
     description: "I have learnt how to use JavaScript to manipulate web pages and create dynamic content. I also learnt how to use JavaScript to create interactive web pages and applications.",
     from: "HackerRank",
+    picture_hash: "L9QJ[m}y5$$ut7f6t7oe0cx9VtWY",
     image: "/certifications/JavaScript-Basic-hackerRank.png",
     link: "https://www.hackerrank.com/certificates/62f1ea7d49fb"
   },
   {title: "HTML/CSS",
     description: "Students earn this credential after demonstrating industry standard HTML and CSS skills, achieved working on remote pair programming with teams from around the world.",
     from: "Microverse",
+    picture_hash: "L9QJ[m}y5$$ut7f6t7oe0cx9VtWY",
     image: "/certifications/HTML-CSS-Redux-microverse.png",
     link: "https://www.credential.net/55162051-4476-4ba3-b1bc-011bc5f09651"
   },
   {title: "Problem Solving (Basic)",
     description: "I have solve solved data structures and algorithms problems using JavaScript. I have learn the fundamental concepts of data structures and algorithms, and how to apply them to solve real-world problems.",
     from: "HackerRank",
+    picture_hash: "L9QJ[m}y5$$ut7f6t7oe0cx9VtWY",
     image: "/certifications/Problem-Solving-Basic-hackerRank.png",
     link: "https://www.hackerrank.com/certificates/fea59d345786"
   },
   {title: "JavaScript Algorithms and Data Structures",
     description: "I have learned fundamental programming concepts in JavaScript. I have started with basic data structures like numbers and strings. Then I also learn to work with arrays, objects, functions, loops, and more.",
     from: "FreeCodeCamp",
+    picture_hash: "L9QJ[m}y5$$ut7f6t7oe0cx9VtWY",
     image: "/certifications/JavaScript-Algorithms-and-Data-Structures-freecodecamp.png",
     link: "https://www.freecodecamp.org/certification/tadesse-alemayehu/javascript-algorithms-and-data-structures"
   },
   {title: "Responsive Web Design",
     description: " I have learnt how to make web pages look good on all devices (desktops, tablets, and phones). I also learnt how to write media queries to apply different CSS styles for different screen sizes.",
     from: "FreeCodeCamp",
+    picture_hash: "L9QJ[m}y5$$ut7f6t7oe0cx9VtWY",
     image: "/certifications/Responsive-W0eb-Design-freecodecamp.png",
     link: "https://www.freecodecamp.org/certification/tadesse-alemayehu/responsive-web-design"
   },
   {title: "Certificate of appreciation",
     description: "I developed a web application with a complex database design that Helps the government manage the flow of faremaciuticals in the country",
     from: "Bahir Dar University",
-    image: "/certifications/Certificate-of-appreciacion-BDU.jpg",
+    picture_hash: "L9QJ[m}y5$$ut7f6t7oe0cx9VtWY",
+    image: "/certifications/Certificate-of-appreciation-BDU.jpg",
     link: "https://www.linkedin.com/in/tadesse-alemayehu-full-stack-developer/overlay/education/796941109/multiple-media-viewer/?treasuryMediaId=1635506505774"
   }
 ]);
@@ -295,7 +307,7 @@ Testimony.create([
     name: "Oshane Creary",
     title: "Software Engineer",
     image: "/testimonials/Oshane.jpeg",
-    testimony: "Tadesse has all the qualities and skillset of a world class Full Stack Web Developer. Very proficient in writing clean and functional code. He is also a excellent communicator, great professional and extremely knowledgeable about programming. The projects he has worked on and built are really impressive and amazing.",
+    testimony: "Tadesse has all the qualities and skill set of a world class Full Stack Web Developer. Very proficient in writing clean and functional code. He is also a excellent communicator, great professional and extremely knowledgeable about programming. The projects he has worked on and built are really impressive and amazing.",
     email: "orlando.199creary@gmail.com",
     linkedin: "https://www.linkedin.com/in/ocreary/",
     twitter: "https://twitter.com/ocrearyy",
