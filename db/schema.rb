@@ -32,11 +32,11 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_22_133857) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "from"
+<<<<<<< HEAD
+    t.string "hash"
+=======
     t.string "picture_hash"
-  end
-
   create_table "messages", force: :cascade do |t|
-    t.string "full_name"
     t.string "email"
     t.text "message"
     t.datetime "created_at", null: false
