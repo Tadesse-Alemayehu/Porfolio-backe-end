@@ -1,39 +1,78 @@
-# Portfolio
+# Portfolio Back End
 
-> This is a REST SPI server to provide the necessary data to different forms of my portfolio, The front end's are free to customize
+> My portfolio ✋🏼 where you will get glimpses of what I'm capable of. Including some of the projects I have been working on 🎞 , technologies I am familiar with, contact details, and more. The main technologies here are React and Ruby on rails 🙌 [See me live](https://www.tadesse.dev) Or [check out the API](https://portfolio.api.tadesse.dev)
+
+# Screenshot's
+
+Mobile
+
+![Capture2](https://user-images.githubusercontent.com/69077061/220669370-7ebf9abc-1116-48e5-812c-eedb48353b2c.PNG)
+
+Desktop
+![Capture](https://user-images.githubusercontent.com/69077061/220669388-7dbfaec8-813a-48ff-8584-b521561ca409.PNG)
 
 ## Built With
 
-- Ruby
+- React
+- Ruby on Rails
 - PostgreSQL
+
+## Test with
+
+- jest(test/development-dependency)
+- React test library
+- Rspec
+- Capybara
 
 ## Live Demo
 
-[Go live](https://portfolio-backend-h2ot.onrender.com/) 🙂
+[Go Live](https://www.tadesse.dev) 🙂
+
+[Check out the API](https://portfolio.api.tadesse.dev)
 
 ## Getting Started
 
-1. Open [the main branch](https://github.com/Tadesse-Alemayehu/Portfolio-backend)
+> This is an open source project. I hope you manage to design something similar bas on this one.
+
+> You can also have the Figma template, Just sent me an email putting `I'm looking for the figma template of your react portfolio` in the about section of your email.
+
+1. Open [main branch](https://github.com/Tadessedev/Portfolio-backend/)
 2. Open VSCode or terminal and navigate to the folder where you would like to clone the project.
+
+  ```bash
+    cd # you folder location
+  ```
+
 3. Type "pwd" to see your working directory.
-4. [clone repository](git@github.com:Tadesse-Alemayehu/porfolio)(git clone "branch-link")
-5. Run "npm install" to install the required packages.
-6. Run "index.html" with a live server or any web browser
-7. Enjoy 😎
 
-## Hit the API
+  ```bash
+    pwd
+  ```
 
-- Get all projects
+4. [clone repository](git@github.com:TadesseDev/Portfolio-backend.git)(git clone "branch-link")
 
-```bash
-localhost:3000/api/v1/projects
-```
+  ```bash
+    git clone https://github.com/Tadessedev/Portfolio-backend/
+  ```
 
-- Get all my skills
+5. cd the project folder
 
-```bash
-http://localhost:3000/api/v1/technologies
-```
+ ```bash
+    cd Portfolio-backend
+  ```
+6. Run "bundle install" to install required packages.
+
+ ```bash
+    bundle install
+  ```
+
+7. Run
+
+  ```bash
+    rails s
+  ```
+
+8. Enjoy 😎
 
 ## Authors
 
@@ -49,12 +88,10 @@ Give a ⭐️ if you like this project!
 
 ## Submit an issue
 
-[Issue page](https://github.com/Tadesse-Alemayehu/Portfolio-backend/issues)
+[Issue page](https://github.com/Tadesse-Alemayehu/portfolio-react/issues)
 
 ## Acknowledgments
 
-- Microverse for amusing learning resources.
-- Microverse code reviewers.
 - You! 🙏🏼 yes you... for visiting.
 
 ## 📝 License
