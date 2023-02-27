@@ -1,10 +1,8 @@
 class Api::V1::MessagesController < ApplicationController
   def index
-    p "request format is"+request.content_type
     render json: Message.all
   end
   def show
-    p "token is "+form_authenticity_token
     message=Message.find_by_id params[:id]
     if message
       render json: message
@@ -14,10 +12,11 @@ class Api::V1::MessagesController < ApplicationController
     end
   end
   def create
-    p params
     message=Message.new(full_name: params[:full_name],email: params[:email],phone_number: params[:phone_number],message: params[:message])
     if message.save
       render json: {"message": "success in submitting your message", status: 200}, status: :ok
+      MessageMailer.with(user: message).send_user.deliver_now
+      MessageMailer.with(user: message).send_author.deliver_now
     else
       render json: {"message": "fails to save your message", status: 404},
       :status => :bad_request

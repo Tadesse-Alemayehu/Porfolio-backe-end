@@ -6,7 +6,7 @@ class MessageMailer < ApplicationMailer
   #   en.message_mailer.send_author.subject
   #
   def send_author
-    @subject = "New message from new user"
+    @subject = "New contact message..."
     # p "author is defined as #{author}"
     mail(to: @author[:email], subject: @subject)
   end
@@ -18,7 +18,7 @@ class MessageMailer < ApplicationMailer
   #
   def send_user
     @subject = "Thank you for your message"
-    p " sending email to user#{params}"
     mail(to: params[:user][:email], subject: @subject)
+    p " send email to user#{params}"
   end
 end
