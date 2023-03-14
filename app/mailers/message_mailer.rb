@@ -6,9 +6,9 @@ class MessageMailer < ApplicationMailer
   #   en.message_mailer.send_author.subject
   #
   def send_author
-    @user = Message.first
+    @user = params[:user]
     @subject = "New message dropped by #{@user.full_name}"
-    mail(to: @author[:email], subject: @subject)
+    mail(to: email_address_with_name(@author[:email], "Tadesse.dev"), subject: @subject)
   end
 
   # Subject can be set in your I18n file at config/locales/en.yml
@@ -17,8 +17,8 @@ class MessageMailer < ApplicationMailer
   #   en.message_mailer.send_user.subject
   #
   def send_user
-    @user = Message.first
+    @user = params[:user]
     @subject = "Good news! Your message has been sent..."
-    mail(to: @user.email, subject: @subject)
+    mail(to: email_address_with_name(@user.email, "Tadesse.dev"), subject: @subject)
   end
 end
